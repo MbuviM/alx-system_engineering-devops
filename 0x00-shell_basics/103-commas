@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -maxdepth 1 -printf '%f\n' | sort -t$'\n' -k1.1,1d -k1.2,1n -k1.2,1d -k1,1d | sed -e '/^\.$/d; /^\.\.$/d; s/$/\//; :a; N; $!ba; s/\n/, /g'
