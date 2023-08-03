@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -printf '%f\n' | sort -t$'\n' -k1.1,1d -k1.2,1n -k1.2,1d -k1,1d | sed -e '/^\.$/d; /^\.\.$/d; s/$/\//; :a; N; $!ba; s/\n/, /g'
+ls -ap1 | grep -v '^\.+$' | sort -d -f -k1.1,1.1 -k1.2n -k1.3n -k1.4n -k1.5n -k1.6n -k1.7n -k1.8n -k1.9n -k1.10n -k1.11n | tr '\n' ',' && echo
