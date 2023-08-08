@@ -10,3 +10,4 @@ Shell Init Files and Variables
 3. Display the number of directories in PATH
 4. Script that lists environmental variables.
 Script that lists all local variables and environment variables, and functions.
+6. Script that creates a new local variable
