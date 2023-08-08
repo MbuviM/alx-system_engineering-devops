@@ -9,3 +9,4 @@ Prints hello current user(name)
 
 2. Prints hello current user(name)
 >>>>>>> d9596cca177a8ada9bd12f1a703dd315c95a934b
+3. Display the number of directories in PATH
