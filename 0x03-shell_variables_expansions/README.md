@@ -1,4 +1,4 @@
 # Shell Init Files and Variables
-0-alias-Creating an alias
+1. 0-alias-Creating an alias
 
-Prints hello current user(name)
+2. Prints hello current user(name)
