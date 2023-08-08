@@ -8,3 +8,4 @@ Shell Init Files and Variables
 3. Adding /action to the PATH. /action
 >>>>>>> d9596cca177a8ada9bd12f1a703dd315c95a934b
 3. Display the number of directories in PATH
+4. Script that lists environmental variables.
