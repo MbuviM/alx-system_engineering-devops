@@ -1,3 +1,2 @@
 #!/bin/bash
 echo "ibase=water; $WATER" | bc + "ibase=stir; $STIR" | bc | xargs printf 'obase=bestchol\n%p\n' | bc
-
