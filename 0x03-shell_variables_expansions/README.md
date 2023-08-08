@@ -11,3 +11,4 @@ Shell Init Files and Variables
 4. Script that lists environmental variables.
 Script that lists all local variables and environment variables, and functions.
 6. Script that creates a new local variable
+7. Script that creates a new global variable.
