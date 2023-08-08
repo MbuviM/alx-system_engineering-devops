@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | tr -cd ':' | wc -c | xargs printf "Number of directories in PATH: %d\n"
+echo $PATH | tr-s ":" "\n" | wc -l
